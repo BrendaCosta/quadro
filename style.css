@@ -4,6 +4,9 @@ main{
     grid-template-rows: 1fr 2fr 1fr;
     height: 100vh;
 }
+img{
+    width: 40%;
+}
 .coluna1{
     display: flex;
     justify-content: center;

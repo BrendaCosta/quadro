@@ -1,0 +1,83 @@
+main{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 2fr 1fr;
+    height: 100vh;
+}
+.coluna1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.linhas{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.pt1 .linha{
+    width: 60px;
+    border: 1px solid red; 
+}
+
+.pt1 .linha:first-child{
+    transform: rotate(25deg);
+}
+.pt1 .linha:last-child{
+    transform: rotate(-25deg);
+}
+
+.pt2 .linha{
+    width: 60px;
+    border: 1px solid rgb(13, 245, 148); 
+}
+.pt2 .linha:first-child{
+    /* transform: rotate(25deg); */
+}
+.pt2 .linha:last-child{
+    /* transform: rotate(-25deg); */
+}
+
+.pt3 .linha{
+    width: 60px;
+    border: 1px solid rgb(4, 0, 255);
+    
+}
+
+.pt4 .linha{
+    width: 60px;
+    border: 1px solid rgb(255, 196, 0);
+    
+}
+.pt5 .linha{
+    width: 60px;
+    border: 1px solid rgb(255, 0, 242);
+    
+}
+.pt6 .linha{
+    width: 60px;
+    border: 1px solid rgb(255, 0, 85);
+    
+}
+
+.pt7 .linha{
+    width: 60px;
+    border: 1px solid rgb(23, 14, 141);
+    
+}
+
+.pt8 .linha{
+    width: 60px;
+    border: 1px solid rgb(5, 233, 146);
+    
+}
+
+.pt9 .linha{
+    width: 60px;
+    border: 1px solid rgb(111, 5, 197);
+    
+}
+
+
+
+
